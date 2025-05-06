@@ -1,0 +1,40 @@
+{
+    "locations": {
+        "Muntinglaan 3": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sMuntinglaan%203%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "Noorderplantsoen": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sNoorderplantsoen%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "Groninger Museum": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sGroninger%20Museum%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "Pannekoekenschip": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sPannekoekenschip%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "Martini Toren": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sMartini%20Toren%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "Euroborg": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sEuroborg%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "Oosterpoort": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sOosterpoort%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "Hoofdstation": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sHoofdstation%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "3 Gezusters": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2s3%20Gezusters
+        },
+        "Grote Markt": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sGrote%20Markt%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "Stadhuis": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sStadhuis%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        },
+        "forum": {
+            "embededMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.1234567890123!2d6.567890123456789!3d53.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7b123456789ab%3A0x123456789abcdef0!2sForum%2C%20Groningen%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1234567890123",
+        }
+    }
+}
