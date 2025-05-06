@@ -4,12 +4,14 @@ Dit is een git repository voor de deepdive van Bit Academy nummer 4 van 2025
 
 ## run
 eerst
-```cli
+```
+cli
 
 npm i
 ```
 
-```cli
+```
+cli
 
 npm run watch
 ```
