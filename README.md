@@ -2,6 +2,23 @@
 Dit is een git repository voor de deepdive van Bit Academy nummer 4 van 2025
 
 
+## run
+eerst
+```cli
+
+npm i
+```
+
+```cli
+
+npm run watch
+```
+
+## styling linken
+
+als je de styling will linken moet je ../src/output/css pakken vanaf de public folder geen zorgen als die er niet staat die word gemaakt als je ``` npm run watch```` runt in je cli
+
+
 ## wat gaan we doen?
 We gaan een leuke quiz met interactieve opdrachtjes bij verschillende stops maken, en op basis van je antwoord op de vraag ga je naar een andere locatie toe.
 
