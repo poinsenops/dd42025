@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Team Name:', teamName);
         console.log('Team Members:', teamMembers);
 
-        window.location.href = './questions.html';
+        window.location.href = './public/questions.html';
         form.reset();
     });
 });
