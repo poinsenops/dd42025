@@ -87,7 +87,7 @@ function displayQuestions(questionLocation) {
         } else if (questions && count >= 5) {
             questionsContainer.innerHTML = `
                 <h2 class="text-2xl text-white text-center">Ga nu naar de laatste plek het forum daar staat een docent te wachten</h2>
-                <h2>${questions.Forum.photoTask}</h2>
+                <!-- <h2>${data.questions.Forum.photoTask}</h2> -->
                 <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl" onclick="localStorage.clear(); displayQuestions('Muntinglaan 3'); updateMapLocation('Muntinglaan 3');">Finish task this resets the count</button>`;
                 updateMapLocation('Forum');
         } else {
