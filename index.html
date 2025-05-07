@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body>
+    <div class="bg-gradient-to-b from-0% from-[#3CB2E4]  to-93% to-[#217E5700] h-screen m-0 py-4 bg-black">
+        <h1 class="text-center text-3xl mt-5 text-white font-bold">Welkoms spel <br> bit academy <br> 2025/2026</h1>
+        <img class="mx-auto mt-10" src="img/pickaxe.png" alt="Logo" width="100px" height="100px">
+        <form class="flex flex-col items-center m-4" id="teamForm">
+            <input type="text" name="teamName" placeholder="Team naam"
+                class="mt-10 mb-3 p-2 rounded-md w-1/2 bg-yellow-400" required>
+            <input type="text" name="teamMember" placeholder="Lid 1" class="mb-3 p-2 rounded-md w-1/2 bg-green-400"
+                required>
+            <input type="text" name="teamMember" placeholder="Lid 2" class="mb-3 p-2 rounded-md w-1/2 bg-green-400"
+                required>
+            <input type="text" name="teamMember" placeholder="Lid 3" class="mb-3 p-2 rounded-md w-1/2 bg-green-400"
+                required>
+            <input type="text" name="teamMember" placeholder="Lid 4 (optioneel)"
+                class="mb-3 p-2 rounded-md w-1/2 bg-green-400">
+            <input type="text" name="teamMember" placeholder="Lid 5 (optioneel)"
+                class="mb-3 p-2 rounded-md w-1/2 bg-green-400">
+
+            <button type="submit" class="bg-blue-800 text-white py-2 px-4 rounded-md">Verstuur</button>
+        </form>
+    </div>
+    <script src="public/submitLogic.js"></script>
+</body>
+
+</html>
