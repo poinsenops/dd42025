@@ -52,7 +52,7 @@ function fetchQuestions() {
             return response.json();
         })
         .then(data => {
-            console.log('Questions data:', data);
+            // console.log('Questions data:', data);
             return data;
         })
         .catch(error => {
