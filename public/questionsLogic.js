@@ -86,7 +86,9 @@ function displayQuestions(questionLocation) {
             localStorage.setItem('currentLocation', questionLocation);
         } else if (questions && count >= 5) {
             questionsContainer.innerHTML = `
-                <h2 class="text-2xl text-white text-center">Ga nu naar de laatste plek het forum daarstaat een docent te wachten</h2>`
+                <h2 class="text-2xl text-white text-center">Ga nu naar de laatste plek het forum daar staat een docent te wachten</h2>
+                <h2>${questions.location.photoTask}</h2>
+                <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl" onclick="localStorage.clear(); displayQuestion('Muntinglaan 3'); updateMapLocation('Muntinglaan 3');">Finish task this resets the count</button>`;
                 updateMapLocation('Forum');
         } else {
             console.error('No questions found for location:', questionLocation);
