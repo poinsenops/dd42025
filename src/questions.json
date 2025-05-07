@@ -1,6 +1,6 @@
 {
-    "questions": [
-        {
+    "questions": {
+        "Muntinglaan 3": {
             "location": "Startpunt: Muntinglaan 3",
             "question": "Waar willen jullie avontuur het liefst beginnen?",
             "options": {
@@ -22,7 +22,7 @@
                 }
             }
         },
-        {
+        "Noorderplantsoen": {
             "location": "Noorderplantsoen",
             "question": "Wat zou jij hier het liefst doen op een zonnige dag?",
             "options": {
@@ -45,7 +45,7 @@
             },
             "photoTask": "Maak een teamfoto met iets natuurlijks (boom, bloem, water etc.)"
         },
-        {
+        "Groninger Museum": {
             "location": "Groninger Museum",
             "question": "Wat voor soort kunst spreekt jouw team het meest aan?",
             "options": {
@@ -68,13 +68,13 @@
             },
             "photoTask": "Beeld een kunstwerk uit voor het museum."
         },
-        {
+        "Pannekoekenschip": {
             "location": "Pannekoekenschip",
             "question": "Welke pannenkoek past het beste bij jullie team?",
             "options": {
                 "A": {
                     "answer": "Zoet met stroop en suiker",
-                    "locationSend": "Grote Markt / Stadhuis"
+                    "locationSend": "Grote Markt"
                 },
                 "B": {
                     "answer": "Hartig met kaas en spek",
@@ -91,7 +91,7 @@
             },
             "photoTask": "Doe alsof jullie de grootste pannenkoek ooit maken."
         },
-        {
+        "Oosterpoort": {
             "location": "Oosterpoort",
             "question": "Wat voor sfeer past het beste bij jullie team?",
             "options": {
@@ -114,13 +114,13 @@
             },
             "photoTask": "Doe een muziekscène (luchtgitaar, drumstel etc.)"
         },
-        {
+        "Martini Toren": {
             "location": "Martini Toren",
             "question": "Als jullie omhoog kijken, wat trekt dan het meest jullie aandacht?",
             "options": {
                 "A": {
                     "answer": "Het plein beneden",
-                    "locationSend": "Grote Markt / Stadhuis"
+                    "locationSend": "Grote Markt"
                 },
                 "B": {
                     "answer": "De treinsporen in de verte",
@@ -132,12 +132,12 @@
                 },
                 "D": {
                     "answer": "Het moderne gebouw in de verte",
-                    "locationSend": "Forum (eindpunt)"
+                    "locationSend": "Oosterpoort"
                 }
             },
             "photoTask": "Wijs allemaal dramatisch omhoog in dezelfde richting."
         },
-        {
+        "3 Gezusters": {
             "location": "3 Gezusters",
             "question": "Wat zouden jullie hier als eerste doen?",
             "options": {
@@ -160,7 +160,7 @@
             },
             "photoTask": "Doe een groeps-'proost' met onzichtbare drankjes."
         },
-        {
+        "Euroborg": {
             "location": "Euroborg",
             "question": "Welke rol zouden jullie hebben in een voetbalteam?",
             "options": {
@@ -178,15 +178,61 @@
                 },
                 "D": {
                     "answer": "Aanvoerder – iedereen motiveren",
-                    "locationSend": "Forum (eindpunt)"
+                    "locationSend": "Grote Markt"
                 }
             },
             "photoTask": "Vier een doelpunt met een teamviering."
         },
-        {
-            "location": "Laatste stop: Forum",
+        "Grote Markt": {
+            "location": "Grote Markt",
+            "question": "Wat zou je hier het eerst doen?",
+            "options": {
+                "A": {
+                    "answer": "Straatmuzikant aanmoedigen",
+                    "locationSend": "Oosterpoort"
+                },
+                "B": {
+                    "answer": "Een ijsje scoren",
+                    "locationSend": "Pannekoekenschip"
+                },
+                "C": {
+                    "answer": "Oude gebouwen bewonderen",
+                    "locationSend": "Martini Toren"
+                },
+                "D": {
+                    "answer": "Naar de mensen kijken vanaf een terras",
+                    "locationSend": "Groninger Museum"
+                }
+            },
+            "photoTask": "Maak een levend standbeeld met je team."
+        },
+        "Hoofdstation": {
+            "location": "Hoofdstation",
+            "question": "Waar wil je het liefst uitstappen als verrassing?",
+            "options": {
+            "A": {
+                "answer": "De markt op",
+                "locationSend": "Grote Markt"
+            },
+            "B": {
+                "answer": "Naar het park",
+                "locationSend": "Noorderplantsoen"
+            },
+            "C": {
+                "answer": "Op naar een drankje",
+                "locationSend": "3 Gezusters"
+            },
+            "D": {
+                "answer": "Terug naar de kunst",
+                "locationSend": "Groninger Museum"
+            }
+            },
+            "photoTask": "Maak een 'aankomstselfie' alsof je net uit de trein stapt."
+        },
+        "Forum": {
+            "location": "Forum",
             "photoTask": "Maak een groepsselfie op het dakterras met uitzicht over Groningen!",
-            "bonus": "Toon je foto's en route bij de finish voor extra punten of een prijs."
+            "bonus": "Toon je foto's bij de finish voor extra punten of een prijs."
         }
-    ]
+    }
 }
