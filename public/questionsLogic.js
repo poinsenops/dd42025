@@ -71,20 +71,24 @@ function displayQuestions(questionLocation) {
     question.then(data => {
         const questions = data.questions[questionLocation];
         count = parseInt(localStorage.getItem('count')) || 0;
-        if (questions && count < 5) {
+        if (questions && count < 4) {
+            const previousLocations = JSON.parse(localStorage.getItem('PreviousLocation')) || ["Muntinglaan 3"];
             questionsContainer.innerHTML = `
                 <h2 class="text-2xl pt-4 text-white text-center">${questions.question}</h2>
                 <p class="text-white my-2">${questions.location}</p>
                 <div class="flex flex-col items-center justify-center my-4 gap-4 w-full">
-                    <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl" onclick="displayTask('A');">${questions.options.A.answer}</button>
-                    <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl" onclick="displayTask('B');">${questions.options.B.answer}</button>
-                    <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl" onclick="displayTask('C');">${questions.options.C.answer}</button>
-                    <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl" onclick="displayTask('D');">${questions.options.D.answer}</button>
+                    <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl ${previousLocations.includes(questions.options.A.locationSend) ? 'opacity-50' : ''}" onclick="displayTask('A');" ${previousLocations.includes(questions.options.A.locationSend) ? 'disabled' : ''}>${questions.options.A.answer}</button>
+                    <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl ${previousLocations.includes(questions.options.B.locationSend) ? 'opacity-50' : ''}" onclick="displayTask('B');" ${previousLocations.includes(questions.options.B.locationSend) ? 'disabled' : ''}>${questions.options.B.answer}</button>
+                    <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl ${previousLocations.includes(questions.options.C.locationSend) ? 'opacity-50' : ''}" onclick="displayTask('C');" ${previousLocations.includes(questions.options.C.locationSend) ? 'disabled' : ''}>${questions.options.C.answer}</button>
+                    <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl ${previousLocations.includes(questions.options.D.locationSend) ? 'opacity-50' : ''}" onclick="displayTask('D');" ${previousLocations.includes(questions.options.D.locationSend) ? 'disabled' : ''}>${questions.options.D.answer}</button>
                 </div>
             `; // Clear previous questions
-            
+            if (!previousLocations.includes(questionLocation)) {
+                previousLocations.push(questionLocation);
+                localStorage.setItem('PreviousLocation', JSON.stringify(previousLocations));
+            }
             localStorage.setItem('currentLocation', questionLocation);
-        } else if (questions && count >= 5) {
+        } else if (questions && count >= 4) {
             questionsContainer.innerHTML = `
                 <h2 class="text-2xl text-white text-center">Ga nu naar de laatste plek het forum daar staat een docent te wachten</h2>
                 <!-- <h2>${data.questions.Forum.photoTask}</h2> -->
@@ -114,12 +118,36 @@ function displayTask(answer) {
             questionsContainer.innerHTML = `
             <div class="flex flex-col items-center justify-center my-4 gap-4 w-full">
                 <h2 class="text-2xl pt-4 text-white text-center">${questions[currentLocation].photoTask}</h2>
-            <button class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl" onclick="displayQuestions('${questions[currentLocation].options[answer].locationSend}'); updateMapLocation('${questions[currentLocation].options[answer].locationSend}')">Finish task</button>
+                <p class="text-white my-2">upload hier je foto</p>
+                <input type="file" id="fileInput" class="my-2 p-2 w-full bg-amber-50 rounded-2xl" accept=".jpg,.jpeg,.png" onchange="handleFileUpload(event)" />
+                <button id="finishTaskButton" class="py-3 px-1 bg-[#3CE49E] w-full rounded-2xl shadow-2xl opacity-50" disabled onclick="displayQuestions('${questions[currentLocation].options[answer].locationSend}'); updateMapLocation('${questions[currentLocation].options[answer].locationSend}')">Finish task</button>
             </div>`;
+
+            const fileInput = document.getElementById('fileInput');
+            const finishTaskButton = document.getElementById('finishTaskButton');
+
+            fileInput.addEventListener('change', () => {
+                if (fileInput.files.length > 0) {
+                    finishTaskButton.disabled = false;
+                    finishTaskButton.classList.remove('opacity-50');
+                } else {
+                    finishTaskButton.disabled = true;
+                    finishTaskButton.classList.add('opacity-50');
+                }
+            });
             count++;
             localStorage.setItem('count', count);
         } else {
             console.error('No questions found for location:', answer.locationSend);
         }
     });
+}
+
+function handleFileUpload(event) {
+    const file = event.target.files[0];
+    if (file) {
+        console.log('File uploaded:', file.name);
+    } else {
+        console.error('No file selected.');
+    }
 }
