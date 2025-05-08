@@ -148,7 +148,7 @@ We gaan een leuke quiz met interactieve opdrachtjes bij verschillende stops make
 
 
 
-## reflectie
+## Reflectie
 
 Vandaag heb ik samen met mijn groep een stadsquiz getest in het centrum van Groningen. Deze quiz was ontwikkeld door een ander groepje, en ons doel was om hun route en vragen in de praktijk te testen. We zijn gestart op de Grote Markt, waarna we via de Herestraat en het Gedempte Zuiderdiep richting het Groninger Museum zijn gelopen. Vanuit daar zijn we naar het Hoofdstation gegaan, waar we de eerste quizvraag hebben beantwoord. Vervolgens zijn we teruggelopen naar het Groninger Museum voor de tweede vraag.
 
@@ -156,4 +156,7 @@ Na die vraag gingen we opnieuw via het Zuiderdiep en de Herestraat verder de sta
 
 Na afloop hebben we feedback gegeven aan het ontwikkelteam over de route en de inhoud van de vragen. We bespraken wat goed werkte, wat onduidelijk was en gaven suggesties voor verbetering. Tot slot zijn we teruggekeerd naar school.
 
-de vragen waren simpel maar je moest soms wel even kijken naar een bordje voor wat informatie over bijvoorbeeld de prinsentuin of het universiteits musuem of bij het hoofdstation om de vraag echt te beantwoorden. Volgens ons was de route die zij ons hebben opgelegd logisch en je kon dus makkelijk door de stad heen lopen zonder enige moeite. De feedback die we hebben gegeven waren daarom ook best simpel want het was alleen de styling en dat ze nog opdrachtjes voor als je op de locatie bent nog moet toevoegen om nog wat interactiever te maken en voor bewijsmaterialen dat je er ook daadwerkelijk bent geweest.
+De vragen waren simpel, maar je moest soms wel even goed kijken naar een bordje voor informatie, bijvoorbeeld bij de Prinsentuin, het Universiteitsmuseum of het Hoofdstation, om de vraag echt goed te kunnen beantwoorden. Volgens ons was de route die zij hadden uitgestippeld logisch, en je kon gemakkelijk door de stad lopen zonder moeite.
+
+De feedback die we hebben gegeven was daarom ook vrij simpel. Het ging vooral over de styling, en we gaven aan dat ze nog opdrachtjes konden toevoegen voor op locatie. Zo wordt het wat interactiever en kun je ook bewijsmateriaal verzamelen dat je er daadwerkelijk bent geweest.
+
