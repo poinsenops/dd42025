@@ -1,3 +1,7 @@
+## de link naar de webserver
+https://dd42025.netlify.app/
+de aanbeveling is dit op mobiel te bekijken maar je kan het ook op je laptop bekijken door te inspecteren op een schrem van 420*685
+
 # dd42025
 Dit is een git repository voor de deepdive van Bit Academy nummer 4 van 2025
 
