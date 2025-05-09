@@ -160,3 +160,6 @@ De vragen waren simpel, maar je moest soms wel even goed kijken naar een bordje 
 
 De feedback die we hebben gegeven was daarom ook vrij simpel. Het ging vooral over de styling, en we gaven aan dat ze nog opdrachtjes konden toevoegen voor op locatie. Zo wordt het wat interactiever en kun je ook bewijsmateriaal verzamelen dat je er daadwerkelijk bent geweest.
 
+## onedrive bestanden
+dit is de link naar de onedrive map met bestanden
+https://npcg-my.sharepoint.com/:f:/r/personal/jvandermeer6_st_noorderpoort_nl/Documents/dd4%202025%20stadsbingo?csf=1&web=1&e=OrRTU9
