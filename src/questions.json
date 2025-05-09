@@ -5,19 +5,19 @@
             "question": "Waar willen jullie avontuur het liefst beginnen?",
             "options": {
                 "A": {
-                    "answer": "In het groen → Noorderplantsoen",
+                    "answer": "In het groen",
                     "locationSend": "Noorderplantsoen"
                 },
                 "B": {
-                    "answer": "Bij kunst en kleur → Groninger Museum",
+                    "answer": "Bij kunst en kleur",
                     "locationSend": "Groninger Museum"
                 },
                 "C": {
-                    "answer": "Op het water met eten → Pannekoekenschip",
+                    "answer": "Op het water met eten",
                     "locationSend": "Pannekoekenschip"
                 },
                 "D": {
-                    "answer": "Hoog boven de stad → Martini Toren",
+                    "answer": "Hoog boven de stad",
                     "locationSend": "Martini Toren"
                 }
             }
@@ -27,19 +27,19 @@
             "question": "Wat zou jij hier het liefst doen op een zonnige dag?",
             "options": {
                 "A": {
-                    "answer": "Picknicken met vrienden → Pannekoekenschip",
+                    "answer": "Picknicken met vrienden",
                     "locationSend": "Pannekoekenschip"
                 },
                 "B": {
-                    "answer": "Een boek lezen in het gras → Groninger Museum",
+                    "answer": "Een boek lezen in het gras",
                     "locationSend": "Groninger Museum"
                 },
                 "C": {
-                    "answer": "Een rondje lopen en de natuur bewonderen → Prinsentuin",
+                    "answer": "Een rondje lopen en de natuur bewonderen",
                     "locationSend": "Prinsentuin"
                 },
                 "D": {
-                    "answer": "Wandelen en vogels spotten → Oosterpoort",
+                    "answer": "Wandelen en vogels spotten",
                     "locationSend": "Oosterpoort"
                 }
             },
@@ -50,19 +50,19 @@
             "question": "Wat voor soort kunst spreekt jouw team het meest aan?",
             "options": {
                 "A": {
-                    "answer": "Natuurlijk en Mileubewust → Prinsentuin",
+                    "answer": "Natuurlijk en Mileubewust",
                     "locationSend": "Prinsentuin"
                 },
                 "B": {
-                    "answer": "Klassiek en historisch → Martini Toren",
+                    "answer": "Klassiek en historisch",
                     "locationSend": "Martini Toren"
                 },
                 "C": {
-                    "answer": "Street art en modern → 3 Gezusters",
+                    "answer": "Street art en modern",
                     "locationSend": "3 Gezusters"
                 },
                 "D": {
-                    "answer": "Fotografie of film → Oosterpoort",
+                    "answer": "Fotografie of film",
                     "locationSend": "Oosterpoort"
                 }
             },
@@ -73,19 +73,19 @@
             "question": "Welke pannenkoek past het beste bij jullie team?",
             "options": {
                 "A": {
-                    "answer": "Zoet met stroop en suiker → Grote Markt",
+                    "answer": "Zoet met stroop en suiker",
                     "locationSend": "Grote Markt"
                 },
                 "B": {
-                    "answer": "Gezond met sla en groenten → Prinsentuin",
+                    "answer": "Gezond met sla en groenten",
                     "locationSend": "Prinsentuin"
                 },
                 "C": {
-                    "answer": "Fris met appel of banaan → Noorderplantsoen",
+                    "answer": "Fris met appel of banaan",
                     "locationSend": "Noorderplantsoen"
                 },
                 "D": {
-                    "answer": "Gewaagd met chili of curry → 3 Gezusters",
+                    "answer": "Gewaagd met chili of curry",
                     "locationSend": "3 Gezusters"
                 }
             },
@@ -96,19 +96,19 @@
             "question": "Wat voor sfeer past het beste bij jullie team?",
             "options": {
                 "A": {
-                    "answer": "Rustige muziek en theater → Groninger Museum",
+                    "answer": "Rustige muziek en theater",
                     "locationSend": "Groninger Museum"
                 },
                 "B": {
-                    "answer": "Festivalvibes en drukte → 3 Gezusters",
+                    "answer": "Festivalvibes en drukte",
                     "locationSend": "3 Gezusters"
                 },
                 "C": {
-                    "answer": "Kalmerende muziek → Prinsentuin",
+                    "answer": "Kalmerende muziek",
                     "locationSend": "Prinsentuin"
                 },
                 "D": {
-                    "answer": "Klassiek en indrukwekkend → Martini Toren",
+                    "answer": "Klassiek en indrukwekkend",
                     "locationSend": "Martini Toren"
                 }
             },
@@ -119,19 +119,19 @@
             "question": "Als jullie omhoog kijken, wat trekt dan het meest jullie aandacht?",
             "options": {
                 "A": {
-                    "answer": "Het plein beneden → Grote Markt",
+                    "answer": "Het plein beneden",
                     "locationSend": "Grote Markt"
                 },
                 "B": {
-                    "answer": "De treinsporen in de verte → Hoofdstation",
+                    "answer": "De treinsporen in de verte",
                     "locationSend": "Hoofdstation"
                 },
                 "C": {
-                    "answer": "De groene parken verderop → Noorderplantsoen",
+                    "answer": "De groene parken verderop",
                     "locationSend": "Noorderplantsoen"
                 },
                 "D": {
-                    "answer": "Het moderne gebouw in de verte → Oosterpoort",
+                    "answer": "Het moderne gebouw in de verte",
                     "locationSend": "Oosterpoort"
                 }
             },
@@ -142,19 +142,19 @@
             "question": "Wat zouden jullie hier als eerste doen?",
             "options": {
                 "A": {
-                    "answer": "Een rustig tafeltje zoeken → Groninger Museum",
+                    "answer": "Een rustig tafeltje zoeken",
                     "locationSend": "Groninger Museum"
                 },
                 "B": {
-                    "answer": "Een rustige maar gezellige plek zoeken → Prinsentuin",
+                    "answer": "Een rustige maar gezellige plek zoeken",
                     "locationSend": "Prinsentuin"
                 },
                 "C": {
-                    "answer": "Naar het balkon om te kijken → Martini Toren",
+                    "answer": "Naar het balkon om te kijken",
                     "locationSend": "Martini Toren"
                 },
                 "D": {
-                    "answer": "Vragen waar de dansvloer is → Oosterpoort",
+                    "answer": "Vragen waar de dansvloer is",
                     "locationSend": "Oosterpoort"
                 }
             },
@@ -165,19 +165,19 @@
             "question": "Wat is volgens jullie team de belangrijkste functie van een plek als de prinsentuin?",
             "options": {
                 "A": {
-                    "answer": "om tot rust te komen → Noorderplantsoen",
+                    "answer": "om tot rust te komen",
                     "locationSend": "Noorderplantsoen"
                 },
                 "B": {
-                    "answer": "om natuur en geschiedenis te bewaren → Martini Toren",
+                    "answer": "om natuur en geschiedenis te bewaren",
                     "locationSend": "Martini Toren"
                 },
                 "C": {
-                    "answer": "een mooie plek om samen te komen → 3 Gezusters",
+                    "answer": "een mooie plek om samen te komen",
                     "locationSend": "3 Gezusters"
                 },
                 "D": {
-                    "answer": "Gewoon een mooie achtergrond voor een foto → Groninger Museum",
+                    "answer": "Gewoon een mooie achtergrond voor een foto",
                     "locationSend": "Groninger Museum"
                 }
             },
@@ -188,19 +188,19 @@
             "question": "Wat zou je hier het eerst doen?",
             "options": {
                 "A": {
-                    "answer": "Straatmuzikant aanmoedigen → Oosterpoort",
+                    "answer": "Straatmuzikant aanmoedigen",
                     "locationSend": "Oosterpoort"
                 },
                 "B": {
-                    "answer": "Een ijsje scoren → Pannekoekenschip",
+                    "answer": "Een ijsje scoren",
                     "locationSend": "Pannekoekenschip"
                 },
                 "C": {
-                    "answer": "Oude gebouwen bewonderen → Martini Toren",
+                    "answer": "Oude gebouwen bewonderen",
                     "locationSend": "Martini Toren"
                 },
                 "D": {
-                    "answer": "Naar de mensen kijken vanaf een terras → Groninger Museum",
+                    "answer": "Naar de mensen kijken vanaf een terras",
                     "locationSend": "Groninger Museum"
                 }
             },
@@ -211,19 +211,19 @@
             "question": "Waar wil je het liefst uitstappen als verrassing?",
             "options": {
                 "A": {
-                    "answer": "De markt op → Grote Markt",
+                    "answer": "De markt op",
                     "locationSend": "Grote Markt"
                 },
                 "B": {
-                    "answer": "Naar het park → Noorderplantsoen",
+                    "answer": "Naar het park",
                     "locationSend": "Noorderplantsoen"
                 },
                 "C": {
-                    "answer": "Op naar een drankje → 3 Gezusters",
+                    "answer": "Op naar een drankje",
                     "locationSend": "3 Gezusters"
                 },
                 "D": {
-                    "answer": "Terug naar de kunst → Groninger Museum",
+                    "answer": "Terug naar de kunst",
                     "locationSend": "Groninger Museum"
                 }
             },
