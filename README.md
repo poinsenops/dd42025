@@ -160,6 +160,50 @@ De vragen waren simpel, maar je moest soms wel even goed kijken naar een bordje 
 
 De feedback die we hebben gegeven was daarom ook vrij simpel. Het ging vooral over de styling, en we gaven aan dat ze nog opdrachtjes konden toevoegen voor op locatie. Zo wordt het wat interactiever en kun je ook bewijsmateriaal verzamelen dat je er daadwerkelijk bent geweest.
 
+## feedback presentatie
+
+We hebben vandaag onze presentatie gedaan om 11:08 en we kregen onze feedback van Adi en Niels, ze vertelden ons dat we een leuk concept hebben gebouwd alleen dat je meer dan 5 kan toevoegen aan je team en dat we moeten nadenken over de back-end aangezien we alleen maar front-enders hadden in ons team.
+
+## Admin Functionaliteiten & Backend Structuur
+
+Voor een goed werkend beheersysteem aan de achterkant zijn er een aantal adminpagina’s nodig. Deze pagina’s bieden overzicht en controle over de informatie die door teams wordt ingevoerd tijdens het gebruik van de applicatie.
+
+### Benodigde Adminpagina’s
+
+- **Teamoverzichtspagina**  
+  Een pagina waarop alle geregistreerde teams zichtbaar zijn, inclusief hun teamleden. Deze pagina biedt zoek- en filteropties op teamnaam of lidnaam.
+
+- **Fotocontrolepagina per team**  
+  Een pagina waarop per team ingezonden foto’s kunnen worden bekeken. Admins kunnen hier foto’s goedkeuren of afkeuren en optioneel voorzien van feedback of opmerkingen.
+
+- **Antwoordenoverzichtspagina**  
+  Een overzicht van alle gegeven antwoorden per team, bijvoorbeeld als reactie op opdrachten of quizvragen. Antwoorden zijn inzichtelijk per team en per opdracht.
+
+### Databasevereisten
+
+Voor deze functionaliteiten is een centrale database vereist waarin de volgende informatie wordt opgeslagen:
+
+- **Teams**
+  - Teamnaam    
+
+- **Teamleden**
+  - Naam
+
+- **Foto’s**
+  - Geüploade afbeelding  
+  - Tijdstip van upload  
+  - Goedkeuringsstatus  
+  - Koppeling aan het bijbehorende team
+
+- **Antwoorden**
+  - Inhoud van het antwoord  
+  - Koppeling aan het team en opdracht  
+
+### Veiligheid
+
+Alle adminfunctionaliteiten moeten worden afgeschermd met behulp van authenticatie en autorisatie. Alleen bevoegde gebruikers mogen toegang hebben tot deze pagina’s en bijbehorende API-endpoints.
+
 ## onedrive bestanden
 dit is de link naar de onedrive map met bestanden
 https://npcg-my.sharepoint.com/:f:/r/personal/jvandermeer6_st_noorderpoort_nl/Documents/dd4%202025%20stadsbingo?csf=1&web=1&e=OrRTU9
+
