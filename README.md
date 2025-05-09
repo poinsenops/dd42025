@@ -205,5 +205,6 @@ Alle adminfunctionaliteiten moeten worden afgeschermd met behulp van authenticat
 
 ## onedrive bestanden
 dit is de link naar de onedrive map met bestanden
-https://npcg-my.sharepoint.com/:f:/r/personal/jvandermeer6_st_noorderpoort_nl/Documents/dd4%202025%20stadsbingo?csf=1&web=1&e=OrRTU9
+- https://npcg-my.sharepoint.com/:f:/r/personal/jvandermeer6_st_noorderpoort_nl/Documents/dd4%202025%20stadsbingo?csf=1&web=1&e=OrRTU9
+hier in staat de .fig file van ons design de roan pagina is een vorig design dat we niet hebben gebruikt het kan ook zijn dat die er niet staat. Hier staat ook onze audio opname van de retrospective
 
