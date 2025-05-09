@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const existingTeamData = localStorage.getItem('teamData');
     if (existingTeamData) {
-        window.location.href = './questions.html';
+        window.location.href = './public/questions.html';
         return;
     }
 
